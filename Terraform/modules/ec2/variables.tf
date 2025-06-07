@@ -12,7 +12,7 @@ variable "ami" {
 
 variable "sg_id" {
   description = "sg ID for EC2"
-  type = string
+  type        = string
 }
 
 
@@ -24,4 +24,6 @@ variable "key_name" {
 
 variable "PrSubnet" {
     description = "private subnet for ec2"
+    type = string
+
 }

@@ -1,0 +1,25 @@
+# These are fake secrets for testing Gitleaks only
+
+# Fake AWS credentials
+AWS_ACCESS_KEY_ID=AKIA1234567890FAKE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYzEXAMPLEKEY
+
+# Fake GitHub token
+ghp_12345fakeGitHubTokenForTestingOnlyABCDE
+
+# Fake Slack token
+xoxb-123456789012-123456789012-fakeSlackToken
+
+# Fake Stripe secret key
+sk_test_4eC39HqLyjWDarjtT1zdp7dc
+
+# Fake Google API key
+AIzaSyA-FakeAPIKeyForTesting1234567890
+
+# Fake JWT
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fakePayload.signature
+
+# Fake SSH private key
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA1FAKEKEYBLAHBLAHBLAH1234567890EXAMPLEKEYCONTENT
+-----END RSA PRIVATE KEY-----
