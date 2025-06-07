@@ -1,10 +1,9 @@
-#this is a script that installs the dependencies on the instance (amazon linux 2023)
-
 #!/bin/bash
+#this is a script that installs the dependencies on the instance (amazon linux 2023)
 
 echo "starting user_data script" > /var/log/user-data.log
 
-# Update the system
+# Update the system with auto approval
 sudo yum update -y
 
 # Adding the public key for ssh connections
